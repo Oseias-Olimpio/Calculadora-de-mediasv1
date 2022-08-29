@@ -1,0 +1,11 @@
+print('Esse programa calcula medias')
+
+def calcular_media(n1, n2, n3, n4):
+	quantidade = 4
+	soma = n1 + n2 + n3 + n4
+	media = soma / quandtidade
+	if media >= 6:
+  		print('Aluno aprovado :)')
+	else:
+  		print('Aluno reprovado :(')
+	print('Essa é sua média: %s' % media)
